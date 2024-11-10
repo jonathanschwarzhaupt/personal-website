@@ -26,7 +26,7 @@ pagerSize = 5
 
 [params]
 env = "production"
-description = "Jonathan's Data Engineering finds"
+description = "Engineering Data Solutions"
 author = "Jonathan Schwarzhaupt"
 defaultTheme = "auto"
 ShowReadingTime = true
