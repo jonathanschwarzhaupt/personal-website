@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Go on Jonathan Schwarzhaupt</title>
+    <link>http://localhost:1313/tags/go/</link>
+    <description>Recent content in Go on Jonathan Schwarzhaupt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My second post</title>
+      <link>http://localhost:1313/posts/my-second-post/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-second-post/</guid>
+      <description>&lt;h1 id=&#34;my-second-post&#34;&gt;My second post&lt;/h1&gt;
+&lt;p&gt;This is my second post.&lt;/p&gt;
+&lt;h2 id=&#34;general&#34;&gt;General&lt;/h2&gt;
+&lt;p&gt;What is this&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="my-second-post">My second post</h1>
+<p>This is my second post.</p>
+<h2 id="general">General</h2>
+<p>What is this</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

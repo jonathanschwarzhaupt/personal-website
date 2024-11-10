@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bicep on Jonathan Schwarzhaupt</title>
+    <link>http://localhost:1313/tags/bicep/</link>
+    <description>Recent content in Bicep on Jonathan Schwarzhaupt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bicep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;This post illustrates the deployment steps for a Static Site hosted on Microsoft Azure. It is also the first time I used infrastructure as code.&lt;/p&gt;
+&lt;h1 id=&#34;azure-static-site&#34;&gt;Azure Static Site&lt;/h1&gt;
+&lt;p&gt;Characteristics of a static site in Azure and configuration options.&lt;/p&gt;
+&lt;h1 id=&#34;infrastrucutre-as-code&#34;&gt;Infrastrucutre as Code&lt;/h1&gt;
+&lt;h2 id=&#34;why-bicep&#34;&gt;Why Bicep&lt;/h2&gt;
+&lt;p&gt;I chose bicep as it has access to the latest Azure APIs. I would rather be proficient in one tool than know a lot of tools a little bit. Compared to terraform, bicep is more straight forward, closer to the Azure Resource Manager and does not have weird state-change issues, like terraform can have with its state file.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This post illustrates the deployment steps for a Static Site hosted on Microsoft Azure. It is also the first time I used infrastructure as code.</p>
+<h1 id="azure-static-site">Azure Static Site</h1>
+<p>Characteristics of a static site in Azure and configuration options.</p>
+<h1 id="infrastrucutre-as-code">Infrastrucutre as Code</h1>
+<h2 id="why-bicep">Why Bicep</h2>
+<p>I chose bicep as it has access to the latest Azure APIs. I would rather be proficient in one tool than know a lot of tools a little bit. Compared to terraform, bicep is more straight forward, closer to the Azure Resource Manager and does not have weird state-change issues, like terraform can have with its state file.</p>
+<h1 id="steps">Steps</h1>
+<p>This is the second section of the post.
+And here is a <a href="http://localhost:1313/posts/my-second-post/">link</a> to my first page.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;hello world&#34;</span><span class="p">)</span>
+</span></span></code></pre></div>]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
