@@ -49,7 +49,7 @@ Here I share little snippets of things that I learn, find interesting, or worth 
 
 I will post mostly about technical topics that relate to the practice of data engineering. These might be centered around Microsoft Azure, Linux, and open source technology such as DuckDB, dlt, or Dagster. I also plan to publish posts around data governance, management, and strategy as I firmly believe that data (engineering) projects are most successful, if they are truly part of an organization's broader business strategy.
 
-You'll find some of my personal projects here too - from a fun facts CLI written in Go, to a recipe management web server, and a data integration project for my personal finances.
+You'll find some of my personal projects here too - from a fun facts CLI written and a recipe management web server written in Go to a data analytics platform for my personal finances.
 
 You can find my socials and recent posts below and check the "*[About]( {{< ref "/about/" >}} )*" page in case you'd like to know more about me!
 """
