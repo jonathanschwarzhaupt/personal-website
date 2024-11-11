@@ -22,8 +22,8 @@ I work extensively with both cloud-native services and open source tools, believ
 - Infrastructure: Linux, Docker
 
 ## Beyond Engineering
-In my free time, I work on personal projects that combine my interests with coding. Currently, I'm developing a Go-based recipe management app to organize my cooking experiments and building an analytics platform to better understand my personal finances. These projects let me experiment with new technologies while solving practical problems.
+In my free time, you can find me on the field hockey pitch where I've been playing competitively for over 15 years. I also enjoy exploring Munich's golf courses and discovering new corners of this beautiful city.
 
-I also enjoy turning everyday challenges into technical solutions. Some of my recent projects include a recipe management app written in Go to capture recipes I am trying out and an analytics platform for my personal finances. These projects let me experiment with new technologies while solving practical problems.
+Sometimes, working with data extends into my free time. I work on personal projects that combine my interests with coding. Currently, I'm developing a Go-based recipe management app to organize my cooking experiments and building an analytics platform to better understand my personal finances. These projects let me experiment with new technologies while solving practical problems.
 
 I'm always excited to connect with fellow data enthusiasts and professionals. Check out my [contact]({{< ref "/contact/" >}}) page!
