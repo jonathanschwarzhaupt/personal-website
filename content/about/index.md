@@ -24,6 +24,6 @@ I work extensively with both cloud-native services and open source tools, believ
 ## Beyond Engineering
 In my free time, you can find me on the field hockey pitch where I've been playing competitively for over 15 years. I also enjoy exploring Munich's golf courses and discovering new corners of this beautiful city.
 
-Sometimes, working with data extends into my free time. I work on personal projects that combine my interests with coding. Currently, I'm developing a Go-based recipe management app to organize my cooking experiments and building an analytics platform to better understand my personal finances. These projects let me experiment with new technologies while solving practical problems.
+When I get the chance, working with data extends into my free time. I work on personal projects and am learning more about Azure, Linux, and Networking. Currently, I'm studying for the next Azure certificate, developing a Go-based recipe management app to organize my cooking experiments, and building an analytics platform to better understand my personal finances. These projects let me explore new tools and technologies and provide an opportunity to apply my evolving technical skills. 
 
 I'm always excited to connect with fellow data enthusiasts and professionals. Check out my [contact]({{< ref "/contact/" >}}) page!
