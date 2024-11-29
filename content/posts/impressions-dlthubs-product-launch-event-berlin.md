@@ -40,6 +40,30 @@ The definition of the dlt project, `dlt_project.yml`, will already look familiar
 {{< imageproc src="/images/dlt_project1.jpeg" size="x800" alt="dlt+ - dlt project definition" >}}
 {{< imageproc src="/images/dlt_project2.jpeg" size="x800" alt="dlt+ - dlt project definition with profiles" >}}
 
+After building of the pipeline, initial transformations, and deployment, the Data Scientist can then get to work on the data without needing to be connect to expensive cloud resources or needing to deal much with secrets. They would interact with the portable data lake something like this:
+```python
+# Import package from private PyPi repository
+import dlt_company_package as dlt_cp
+
+# Inspect available datasets
+catalogue = dlt_cp.catalogue()
+
+# This shows the datasets available for the profile interacting with the catalogue
+print(catalogue)
+
+# Shows the table of the dataset, assuming the user has access via their profile
+print(catalogue.my_dataset)
+```
+
+Then, after performing some data science work, they can write back their results. Here, dlt enforces the data contracts specified in the dlt_profile. It could for example allow the insertion of records, but disallow the change of columns.
+```python
+# Write into data lake, if sufficient permissions
+print(catalogue.my_dataset.save(df, table_name="my_table"))
+```
+If a table contract is violated, dlt raises an error, which would look something like this:
+```
+DataValidationError: In schema: out source Table: my_table Column: id. Contract on columns with freeze mode is violated. Trying to add column id to table my_table but columns are frozen
+```
 
 ## Thoughts
 Personally, I am really excited about the possibilities of dlt+! I have experienced first-hand the creeping cloud costs of easy-to-setup and use cloud-native analytics platforms (looking at you Azure Synapse) and wished for ways I could simply leverage my own laptop for e.g. quick exploration, or the creation of an ad-hoc analysis. 
