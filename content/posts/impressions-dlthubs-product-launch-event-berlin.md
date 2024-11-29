@@ -7,12 +7,12 @@ tags:
 
 The dlt team has been on a global roadshow for the last few weeks, making the stop in their home-city of Berlin last Tuesday. 
 
-The evening was packed with presentations, guest speakers, and product demos. And even though one speaker fell ill, went well over the planned schedule. If it was up to me, it could have continued for a good while longer - I was really fascinated by the insights shared from the members of the community. It was really cool to put a face to the names you typically see in Slack or in articles.
+The evening was packed with presentations, guest speakers, and product demos. And even though one speaker fell ill, it went well over the planned schedule. If it was up to me, it could have continued for a good while longer - I was really fascinated by the insights shared from the members of the community. It was really cool to put a face to the names you typically see in Slack or in articles.
 
 ## dlt+
 {{< imageproc src="/images/dlt+.jpeg" size="x400" alt="Introduction of dlt+" >}}
 
-dltHub's journey started as a open source python python library for easily extracting and loading data. For 2025 they focus on building-out and establishing their commercial product, dlt+.
+dltHub's journey started as a open source python library for easily extracting and loading data. For 2025 they focus on building-out and establishing their commercial product, dlt+.
 
 With dlt+, dltHub is moving into the data platform space. The goal is to give users instant access to datasets, enable local exploration and processing, and allow the user to share back their results. dltHub coins it the "[Portable data lake](https://dlthub.com/blog/portable-data-lake)".
 
@@ -40,7 +40,7 @@ The definition of the dlt project, `dlt_project.yml`, will already look familiar
 {{< imageproc src="/images/dlt_project1.jpeg" size="x800" alt="dlt+ - dlt project definition" >}}
 {{< imageproc src="/images/dlt_project2.jpeg" size="x800" alt="dlt+ - dlt project definition with profiles" >}}
 
-After building of the pipeline, initial transformations, and deployment, the Data Scientist can then get to work on the data without needing to be connect to expensive cloud resources or needing to deal much with secrets. They would interact with the portable data lake something like this:
+After building of the pipeline, initial transformations, and deployment, the Data Scientist can then get to work on the data without needing to be connected to expensive cloud resources or needing to deal much with secrets. They would interact with the portable data lake something like this:
 ```python
 # Import package from private PyPi repository
 import dlt_company_package as dlt_cp
