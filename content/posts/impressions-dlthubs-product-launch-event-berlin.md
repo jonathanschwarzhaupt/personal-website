@@ -1,6 +1,8 @@
 ---
 title: Impressions from dltHub's product launch event in Berlin
 date: 2024-11-27
+tags:
+    - dlt
 ---
 
 The dlt team has been on a global roadshow for the last few weeks, making the stop in their home-city of Berlin last Tuesday. 
