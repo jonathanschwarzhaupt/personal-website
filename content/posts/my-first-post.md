@@ -3,4 +3,4 @@ title: Hello World
 date: 2024-11-10
 ---
 
-First post is coming soon!
+Oh wow this actually works. Pretty neat. Let's see what I will come up with...
