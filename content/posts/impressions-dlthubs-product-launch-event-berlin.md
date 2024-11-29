@@ -39,7 +39,7 @@ The definition of the dlt project, `dlt_project.yml`, will already look familiar
 {{< imageproc src="/images/dlt_project2.jpeg" size="x800" alt="dlt+ - dlt project definition with profiles" >}}
 
 
-## Thoughts:
+## Thoughts
 Personally, I am really excited about the possibilities of dlt+! I have experienced first-hand the creeping cloud costs of easy-to-setup and use cloud-native analytics platforms (looking at you Azure Synapse) and wished for ways I could simply leverage my own laptop for e.g. quick exploration, or the creation of an ad-hoc analysis. 
 
 And if you really think about it, [most companies (certainly all I encounter in my work) really do not need distributed computing](https://motherduck.com/blog/redshift-files-hunt-for-big-data/) - which is what all modern, cloud-native datawarehouses are built on top of. So why are we still recommending *everyone* to move to one of the big DWH - regardless of data volume?
