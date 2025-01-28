@@ -3,7 +3,7 @@ title: Short rundown of Azure blob storage's access tiers
 date: 2025-01-28
 tags:
     - azure
-    -blob storage
+    - blob storage
 ---
 
 There are different access tiers for blobs residing in Azure Storage. These tiers include
