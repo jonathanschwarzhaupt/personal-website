@@ -39,9 +39,9 @@ ShowPageNums = true
 ShowToc = true
 TocSide = "left"
 
-  [params.homeInfoParams]
-  Title = "Engineering Data Solutions"
-  Content = """
+[params.homeInfoParams]
+Title = "Engineering Data Solutions"
+Content = """
 👋 Welcome to my page!
 
 I am Jonathan, a Data Engineer based in Munich, Germany, building bridges between business strategy and technical solutions.
@@ -54,15 +54,15 @@ You'll find some of my personal projects here too - from a fun facts CLI and a r
 You can find my socials and recent posts below and check the "*[About]( {{< ref "/about/" >}} )*" page in case you'd like to know more about me!
 """
 
-  [[params.socialIcons]]
-  name = "github"
-  title = "View my GitHub"
-  url = "https://github.com/jonathanschwarzhaupt/"
+[[params.socialIcons]]
+name = "github"
+title = "View my GitHub"
+url = "https://github.com/jonathanschwarzhaupt/"
 
-  [[params.socialIcons]]
-  name = "linkedin"
-  title = "View my LinkedIn"
-  url = "https://www.linkedin.com/in/jonathanschwarzhaupt/"
+[[params.socialIcons]]
+name = "linkedin"
+title = "View my LinkedIn"
+url = "https://www.linkedin.com/in/jonathanschwarzhaupt/"
 
 [[menu.main]]
 identifier = "About"
