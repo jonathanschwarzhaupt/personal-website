@@ -1,7 +1,7 @@
 baseURL = "https://www.jonathanschwarzhaupt.net/"
 languageCode = "en-us"
 title = "Jonathan Schwarzhaupt"
-theme = "hugo-PaperModX"
+theme = "PaperModX"
 enableEmoji = true
 pygmentsUseClasses = true
 
