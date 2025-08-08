@@ -1,6 +1,6 @@
 ---
 title: Home-Plumbing my personal data platform
-date: 2025-08-04
+date: 2025-08-08
 tags:
     - Airflow
     - K8s
