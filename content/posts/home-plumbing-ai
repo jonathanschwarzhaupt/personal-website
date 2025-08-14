@@ -2,10 +2,10 @@
 title: Plumbing AI into my personal data platform
 date: 2025-08-14
 tags:
-  - Airflow
-  - Python
-  - PydanticAI
-  - Agentic Workflow
+    - Airflow
+    - Python
+    - PydanticAI
+    - Agentic Workflow
 ---
 
 This week I brought AI capabilities to my personal data platform - _home plumbing_. I was skeptical about using AI for financial categorization. Then I built it anyway.
