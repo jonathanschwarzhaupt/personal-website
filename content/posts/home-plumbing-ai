@@ -95,9 +95,7 @@ logfire.instrument_pydantic_ai()
 logfire.instrument_httpx(capture_all=True) # extra package that observes all http requests to model providers
 ```
 
-Using only these few lines, I have a complete observability platform for my GenAI data pipeline. The image below gives you a sense of the features the user interface presents:
-
-{{< imageproc src="/images/home-plumbing-ai-logfire-screenshot.png" size="x800" alt="Pydantic Logfire" >}}
+Using only these few lines, I have a complete observability platform for my GenAI data pipeline.
 
 I can see each operation the model took - most of the times it is 3. One for the agent, one for the model and finally the API call to the provider with the 'final_result' as the tool indicating the enforced result type. On one instance, a fourth step was made: The API request had an exception, so it was retried.
 
